@@ -1,0 +1,57 @@
+/* ContactUs.css */
+
+/* You can add additional global styles if needed, e.g., for the body, a, button elements */
+
+/* Styles for ContactUs component */
+
+
+.card-body button {
+    
+    width: 100%; /* Full width buttons */
+  }
+  
+  /* Responsive spacing and alignment */
+  @media (max-width: 768px) {
+    .card-body button {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Additional custom styles */
+  
+
+  /* ContactUs.css */
+
+.contact-background {
+    background: url('./images/back.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* This makes sure that your background image covers the full viewport height */
+    width: 100vw; /* This makes sure that your background image covers the full viewport width */
+    overflow: auto; /* Adds scroll to the container if the content is larger than the screen */
+  }
+  
+  /* Add styles for the rest of your components */
+
+  /* ContactUs.css */
+
+  .row1{
+    background-color: blue;
+
+
+  }
+.custom-card {
+    background-color: rgba(93, 99, 100, 0.507);
+    padding: 2rem; /* Adds padding inside the card for height */
+    margin-top: 2rem; /* Adds some margin at the top of the card */
+    margin-bottom: 2rem; /* Adds some margin at the bottom of the card */
+  }
+  
+  /* Adjust the max-width for larger screens if needed */
+  @media (min-width: 1200px) {
+    
+    .custom-card {
+      max-width: 1500px; /* Sets a max-width for extra-large screens */
+    }
+  }
+  
+  

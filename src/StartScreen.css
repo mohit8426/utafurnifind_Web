@@ -1,0 +1,89 @@
+/* StartScreen.module.css */
+
+.about-us-background {
+  background: url('./images/back.png') no-repeat center center fixed;
+  background-size: cover;
+  padding: 3rem 0; /* Add top and bottom padding */
+  color: #fff; /* Assuming a dark background image, white text will stand out */
+}
+.container {
+ 
+  justify-content: center;
+  align-items: center;
+ 
+  
+  
+}
+  
+  .logoContainer {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 100px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    color: #800080; /* Or use your brand color */
+    margin-top: 10px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button,
+  .buttonAccent {
+    padding: 15px 30px;
+    margin: 10px 0;
+    border: 2px solid #800080; /* Or use your brand color */
+    background-color: transparent;
+    color: #800080; /* Or use your brand color */
+    font-size: 1rem;
+    border-radius: 25px; /* Rounded borders */
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover,
+  .buttonAccent:hover {
+    background-color: #800080; /* Or use your brand color */
+    color: #fff;
+  }
+  
+  .buttonAccent {
+    background-color: #800080; /* Or use your brand color */
+    color: #fff;
+  }
+  
+  .buttonAccent:hover {
+    background-color: transparent;
+    color: #800080; /* Or use your brand color */
+  }
+  
+/* StartScreen.css */
+/* ... existing styles ... */
+
+.backToHome {
+  width: 100%;
+}
+
+.backToHomeLink {
+  color: #007bff; /* Bootstrap primary color for links */
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block; /* Align link correctly */
+}
+
+.backToHomeLink:hover {
+  color: #0056b3; /* A darker shade for hover state */
+  text-decoration: underline;
+}
+
+/* ... other styles ... */
+

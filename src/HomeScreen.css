@@ -1,0 +1,232 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Apply the animation to fade in the carousel and content */
+  .carousel, .container {
+    display:block;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* background: url('./images/sofa1.gif') no-repeat center center fixed;  */
+  /* background-color:#0056b3; */
+  /* background-size: cover; */
+  text-decoration-color: #fff;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  .container1 {
+    display: grid;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* background: url('./images/sofa1.gif') no-repeat center center fixed;  */
+  background-color: #4990dc6e;
+  
+  background-size: cover;
+    animation: fadeIn 2s ease-in-out;
+
+  }
+  
+  /* Additional styling for your home screen */
+  
+  .navbar {
+    
+    background: url('./images/back.png');
+   
+    height: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .btn-outline-primary {
+    border-color: #0056b3;
+    color: #0056b3;
+   
+  }
+  
+  .navbar .btn-outline-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+
+  /* HomeScreen.css */
+
+/* Custom spacing for navigation links */
+.nav-link {
+  margin-right: 15px; /* Adjust the spacing as needed */
+}
+
+/* Ensure the last item doesn't have extra margin on the right */
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+/* Additional styles */
+
+  
+  /* Additional CSS animations or styles... */
+
+  /* HomeScreen.css */
+
+/* Style for Navbar */
+.navbar-brand img {
+    max-width: 1000px; /* Adjust the logo width here */
+  }
+  
+  /* Carousel styles */
+  .carousel-item {
+    height: auto; /* Adjust the height of the carousel */
+    background: #000; /* Fallback color */
+  }
+  
+  .carousel-item img {
+    height: 100vh; /* Adjust the height of the image to fit the carousel height */
+    object-fit: cover; /* This will cover the height of the carousel and maintain aspect ratio */
+    background-position: center; /* Center the image if it's not covering */
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    border-radius: 5px; /* Rounded corners for the caption box */
+    padding: 1rem; /* Padding inside the caption box */
+  }
+  
+  /* Spacing and text styles for content */
+  .container.my-3 {
+    padding-top: 2rem; /* Add space at the top of the content */
+    padding-bottom: 2rem; /* Add space at the bottom of the content */
+  }
+  
+  h2 {
+    font-size: 2.5rem; /* Larger font size for headings */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
+  h1 {
+
+
+  }
+  
+  p {
+    font-size: 1.2rem; /* Adjust paragraph font size for readability */
+  }
+  
+  .carousel-caption-custom {
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Additional styles for buttons if needed */
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+
+  /* HomeScreen.css */
+
+/* ... Existing styles ... */
+
+/* About Us Section styles */
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.img-fluid {
+  max-width: 75%;
+  height: auto;
+}
+
+/* About Us text content */
+.about-text {
+  margin-top: 1rem;
+}
+
+/* Responsive design for images in About Us section */
+@media (max-width: 768px) {
+  .about-image {
+    margin-bottom: 1rem;
+  }
+}
+
+/* ... Additional custom styles ... */
+
+
+/* HomeScreen.css */
+
+/* ... existing styles ... */
+
+/* Contact Card Styling */
+.contact1-background{
+  
+  background: #008080;
+  background-size: cover;
+
+}
+
+.card {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer Styling */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40; /* Bootstrap dark background */
+  color: white;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/* ... additional custom styles ... */
+
+
+
+/* HomeScreen.css */
+
+/* Styles for white outline dropdown */
+.outline-light-dropdown .dropdown-toggle {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+}
+
+.outline-light-dropdown .dropdown-toggle:hover, 
+.outline-light-dropdown .dropdown-toggle:active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dropdown menu styling */
+.outline-light-dropdown .dropdown-menu {
+  background-color: #fff;
+  color: #000;
+}
+
+.outline-light-dropdown .dropdown-item:hover, 
+.outline-light-dropdown .dropdown-item:focus {
+  background-color: rgba(0, 0, 0, 0.05);
+}

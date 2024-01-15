@@ -1,0 +1,61 @@
+/* SofaPage.css */
+
+.sofa-background {
+    background: url('./images/back.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* This makes sure that your background image covers the full viewport height */
+    width: 100vw; /* This makes sure that your background image covers the full viewport width */
+    overflow: auto; /* Adds scroll to the container if the content is larger than the screen */
+  }
+  
+  /* Container and Row adjustments for better layout */
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Card styling */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Full width */
+    height: 180px; /* Fixed height for consistency */
+    object-fit: cover; /* Cover the area without stretching the image */
+  }
+  
+  /* Typography */
+  .card-title {
+    color: #007bff; /* Highlight color for titles */
+    font-size: 1.2rem; /* Slightly larger font size */
+  }
+  
+  .card-text {
+    color: #555; /* Slightly lighter text color for contrast */
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff;
+  }
+  
+  /* Dropdown and Form styling */
+  .dropdown, .form-group {
+    margin: 1rem 0; /* Spacing around dropdown and form elements */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: auto; /* Adjust image height on smaller screens */
+    }
+  }
+  
